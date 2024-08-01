@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ADV3
+namespace ADV3.part1
 {
     public class BookFunctions
     {
@@ -23,5 +23,4 @@ namespace ADV3
             return B.Price.ToString("C");
         }
     }
-
 }
