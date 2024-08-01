@@ -11,7 +11,7 @@ namespace ADV3
         static void Main(string[] args)
         {
             #region Part 1 
-            /*    // a   (Defin delegate)
+            /*    // a  Create User Defined Delegate with the same signature of methods existed in Bookfunctions class.
                 string[] data = { "nedal", "osama", "salah" };
 
                 Book book = new Book("algo", "C#", data, DateTime.Now, 60m);
@@ -23,19 +23,19 @@ namespace ADV3
                 Console.WriteLine(getTitleDelegate(book));
                 Console.WriteLine(getAuthorsDelegate(book));
                 Console.WriteLine(getPriceDelegate(book)); 
-
+              //b   Use the Proper build in delegate.
                 Func<Book, string> func01 = BookFunctions.GetTitle;
                 Func<Book, string> func02 = BookFunctions.GetAuthors;
                 Func<Book, string> func03 = B => BookFunctions.GetPrice(B);
 
-                // c (Anonymous Method)
+                // c    Anonymous Method (GetISBN).
                 Func<Book, string> funcISBN = delegate (Book book)
                 {
                     return book.ISBN;
                 };
                 Console.WriteLine(funcISBN(book));
 
-                // d (Lambda Expression)
+                // d         Lambda Expression (GetPublicationDate)
                 Func<Book, DateTime> funcPublicationDate = book => book.PublicationDate;
                 Console.WriteLine(funcPublicationDate(book)); */
             #endregion
